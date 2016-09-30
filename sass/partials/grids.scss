@@ -9,6 +9,8 @@ body {
   color: white;
   background-attachment: fixed;
   min-width: 320px;
+  height: 100%;
+  width: 100%;
 }
 
 .wrapper {
@@ -18,7 +20,12 @@ body {
   margin: 0 auto;
   position: relative;
   top: 50%;
+  display: block;
   transform: translateY(-50%);
+   -webkit-transform: translateY(-50%);
+  -moz-transform:    translateY(-50%);
+  -ms-transform:     translateY(-50%);
+  -o-transform:      translateY(-50%);
 }
 
 h1, h2 {

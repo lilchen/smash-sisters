@@ -1866,7 +1866,9 @@ body {
   font-family: 'Texta-Thin';
   color: white;
   background-attachment: fixed;
-  min-width: 320px; }
+  min-width: 320px;
+  height: 100%;
+  width: 100%; }
 
 .wrapper {
   max-width: 600px;
@@ -1875,7 +1877,12 @@ body {
   margin: 0 auto;
   position: relative;
   top: 50%;
-  transform: translateY(-50%); }
+  display: block;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%); }
 
 h1, h2 {
   font-family: 'Texta-Heavy';
@@ -1898,7 +1905,7 @@ footer {
   font-family: "FontAwesome";
   max-width: 600px;
   min-width: calc(320px-2em);
-  margin: 2.5em auto; }
+  margin: 2.5rem auto; }
   footer a {
     color: #cccccc; }
   footer a:hover {
