@@ -1,2 +1,0 @@
-# smash-sisters
-Smash Sisters
