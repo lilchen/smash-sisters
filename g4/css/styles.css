@@ -1,0 +1,244 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@font-face {
+  font-family: 'Texta-Medium';
+  src: url("/fonts/texta/Texta-Medium.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Texta-Regular';
+  src: url("/fonts/texta/Texta-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Texta-Thin';
+  src: url("/fonts/texta/Texta-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Texta-Heavy';
+  src: url("/fonts/texta/Texta-Heavy.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Texta-Book';
+  src: url("/fonts/texta/Texta-Book.ttf") format("truetype"); }
+  @font-face {
+  font-family: 'Texta-Bold';
+  src: url("/fonts/texta/Texta-Bold.ttf") format("truetype"); }
+
+
+body {
+  font-size: 1em;
+  background: red;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(right, #ad424b, #5a3e5f);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(left, #ad424b, #5a3e5f);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(left, #ad424b, #5a3e5f);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to left, #ad424b, #5a3e5f);
+  /* Standard syntax */
+  font-family: 'Texta-Thin';
+  color: white;
+  background-attachment: fixed;
+  min-width: 320px;
+  height: 100%;
+  width: 100%; }
+
+.wrapper {
+  /*max-width: 600px;
+  min-width: calc(320px-2em);*/
+  padding: 0 2rem;
+  margin: 0 auto;
+  position: relative;
+/*  top: 50%;
+  display: block;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%); */
+  }
+
+strong, .strong {font-weight: bold; font-family: 'Texta-Bold';}
+
+a {
+    color: #ff977f; 
+    text-decoration: none;
+  }
+
+a:hover {
+    color: #ffffff; 
+  }
+
+.title {
+  font-size: 3em;
+  margin-top: .5em;
+}
+
+.banner {
+  max-width: 100%;
+  margin: 50px 0 0px 0;
+}
+
+.intro {
+  font-size: 1.2em;
+  line-height: 1.1em;
+}
+
+hr {
+  height: 1px;
+  border: 0;
+  background-color: rgba(255,255,255,.2);
+}
+
+h1, h2 {
+  font-family: 'Texta-Bold';
+  text-transform: uppercase;
+  letter-spacing: .025em; 
+}
+
+.h2 {
+  color: rgba(255,255,255,.5);
+}
+
+.h6 {
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: .05em;
+  margin-bottom: .2rem;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 5px solid rgba(255,255,255,.6);
+  margin-bottom: 10px;
+}
+
+.semi-o {
+  color: rgba(255,255,255,.5);
+}
+
+.bio span.fa.fa-twitter {
+  padding-right: 3px;
+}
+
+.bio h4 {
+margin-top: .2em;
+margin-bottom: .3em;
+}
+
+@media screen and (max-width: 550px) {
+  .bio {
+    align-items: center;
+  }
+}
+
+button {
+  background-color: #ff977f;
+  border: 0;
+  padding: 15px 25px;  
+  font-size: 1rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d46b52;
+}
+
+
+/*h1 {
+  font-size: 4em; }
+
+h2 {
+  font-size: 2.5em;
+  color: #ff977f; }
+
+p {
+  font-size: 1.3em;
+  line-height: 1.15em;
+  margin: 1em 0 1.5em 0; }*/
+
+footer {
+    max-width: 600px;
+    min-width: calc(320px-2em);
+  }
+  footer ul {
+    font-family: "FontAwesome";
+    width: auto;
+    margin: 0 auto; 
+  }
+
+  @media (min-width: 550px) {
+    footer ul {
+      justify-content: flex-end;
+    }
+    
+    .footer {
+      padding-right: 20px;
+    }
+  }
+  @media (max-width: 550px) {
+    footer ul {
+      margin-top: 1.2em;
+      justify-content: center;
+    }
+  }
+    footer ul li {
+      font-size: 2em;
+      margin-left: .4em;
+      margin-right: .4em; }
+  }
+
+/*@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 2em; }
+
+  h2 {
+    font-size: 1.5em; }
+
+  p {
+    font-size: 1.2em; } }
