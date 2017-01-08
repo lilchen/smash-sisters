@@ -112,7 +112,7 @@ a:hover {
   }
 
 .title {
-  font-size: 3em;
+  font-size: 2.8em;
   margin-top: .5em;
   margin-bottom: .2em;
 }
@@ -141,6 +141,10 @@ h1, h2 {
 
 .h2 {
   color: rgba(255,255,255,.5);
+}
+
+.h5 {
+  line-height: 1.1em;
 }
 
 .h6 {
