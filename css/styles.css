@@ -1882,12 +1882,28 @@ body {
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%); }
+  -o-transform: translateY(-50%); 
+  }
 
 h1, h2 {
   font-family: 'Texta-Heavy';
   text-transform: uppercase;
   letter-spacing: .025em; }
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 5px solid rgba(255,255,255,.6);
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .bio {
+    align-items: center;
+  }
+}
+
 
 h1 {
   font-size: 4em; }
@@ -1918,7 +1934,7 @@ footer {
       font-size: 3em;
       margin-right: .8em; }
 
-@media screen and (max-width: 480px) {
+/*@media screen and (max-width: 480px) {
   h1 {
     font-size: 2em; }
 
