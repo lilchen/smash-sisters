@@ -114,6 +114,7 @@ a:hover {
 .title {
   font-size: 3em;
   margin-top: .5em;
+  margin-bottom: .2em;
 }
 
 .banner {
@@ -179,12 +180,19 @@ margin-bottom: .3em;
 button {
   background-color: #ff977f;
   border: 0;
-  padding: 15px 25px;  
-  font-size: 1rem;
+  padding: 12px 24px;  
+  font-size: 1.2rem;
+  font-family: 'Texta-Heavy';
   color: #fff;
   cursor: pointer;
 }
-
+@media screen and (max-width: 550px) {
+  .cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 button:hover {
   background-color: #d46b52;
 }
