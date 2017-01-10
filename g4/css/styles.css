@@ -122,6 +122,13 @@ a:hover {
   margin: 50px 0 0px 0;
 }
 
+@media (max-width: 550px) {
+  .banner {
+    max-width: calc(100% + 4rem);
+    margin-left: -2rem;
+  }
+}
+
 .intro {
   font-size: 1.2em;
   line-height: 1.1em;
