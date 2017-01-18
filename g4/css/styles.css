@@ -187,6 +187,10 @@ h1, h2 {
   color: rgba(255,255,255,1);
 }
 
+.pink {
+  color: #ff977f; 
+}
+
 .bio span.fa.fa-twitter {
   padding-right: 3px;
 }
@@ -236,6 +240,9 @@ p {
   margin: 1em 0 1.5em 0; }
 */
 
+li {
+  margin: 4px 0;
+}
 footer {
     max-width: 600px;
     min-width: calc(320px-2em);
