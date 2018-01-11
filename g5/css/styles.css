@@ -191,6 +191,18 @@ h1, h2 {
   color: rgba(255,255,255,1);
 }
 
+.forcewrap {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+   /*white-space: wrap;*/
+   /*overflow: hidden;*/
+   /*text-overflow: ellipsis;*/
+}
+
 .pink {
   color: #ff977f; 
 }
