@@ -1761,6 +1761,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/g5\/img\/prize.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 590383,
+		"inputAbbreviatedPath": "\/g5\/img\/prize.png",
+		"outputAbbreviatedPath": "\/g5\/img\/prize.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/g5\/img\/risu-headshot.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
